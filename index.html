@@ -1,24 +1,56 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: blue; font-family:'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', 'sans-serif'";>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content = "width=device-width, inital-scale=1.0">
         <title>Bjarne Zimmer at bjarnezimmer.net</title>
     </head>
 
-    <body style="background-image:url(minecraft_water.webp)";>
+    <style>
+
+        html{
+            background-color: blue;
+            font-family: "'Comic Sans MS', 'Chalkboard SE', 'Comic Neue'";
+            text-align: center;
+
+        body{
+            margin = 0px;
+        }
+
+        .container{
+
+            width: 750px;
+            margin: auto;
+            padding: 10px;
+            border: black 3px solid;
+            background-image: url(images/minecraft_water.webp)
+        }
+    </style>
+
+<body>
+
+<!--
+Margin is outside the box
+Padding is inside the box
+
+
+-->
 
 <h1 style="font-size: 60px;">This is my website</h1>
 <hr color="black">
 <h2>My first publically available attempt for webdesign...</h2>
+<div class="container"> <!-- where this an id, i.e. the style section started with a #, there could only be one container in all of my website -->
 <p title="Secret tooltip, yay!">Bjarne Zimmer - Computer Science Student at AAU (Aalborg University, Denmark)</p>
 <br>
 <blockquote cite="The Stranger Camus, Albert">
 <i>I may not have been sure about what really did interest me, but I was absolutely sure about what didn't.</i>
 </blockquote>
-<p>- Albert Camus, The stranger</p>
+<p>Albert Camus, The stranger</p>
 <br>
-<img src="yawning_garfield.gif" alt="a gif of Garfield the cat yawning in his sleeping box" padding="10px"/>
+<img title="Click if you need something to wake you up..." src="images/yawning_garfield.gif" alt="a gif of Garfield the cat yawning in his sleeping box" padding="10px" usemap="#needhelp"/>
+<map name="needhelp">
+    <area shape="rect" coords="0, 0, 330, 270 " href="https://www.monsterenergy.com" alt="nah">
+</map>
 <br><a href="https://www.github.com/johnathaniel06">This is my Github</a>
 
     <pre>
@@ -32,8 +64,6 @@
 
                         out... huh?
     </pre>
-
-
-
+</div>
     </body>
 </html>
