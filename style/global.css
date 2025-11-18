@@ -1,11 +1,12 @@
 html {
-    background-color: blue;
+
     font-family: "'Comic Sans MS', 'Chalkboard SE', 'Comic Neue'";
     text-align: center;
 }
 
 body{
-     margin: 0px;
+    margin: 0px;
+    background-color: blue;
 }
 
 .container{
@@ -19,4 +20,12 @@ body{
 
 a {
     color: black;
+}
+
+table {
+    background-color: orange;
+}
+
+button {
+    background-color: orange;
 }
