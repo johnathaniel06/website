@@ -1,0 +1,22 @@
+html {
+    background-color: blue;
+    font-family: "'Comic Sans MS', 'Chalkboard SE', 'Comic Neue'";
+    text-align: center;
+}
+
+body{
+     margin: 0px;
+}
+
+.container{
+
+    width: 750px;
+    margin: auto;
+    padding: 10px;
+    border: black 3px solid;
+    background-image: url(/images/minecraft_water.webp);
+}
+
+a {
+    color: black;
+}
