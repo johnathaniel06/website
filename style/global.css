@@ -5,8 +5,36 @@ html {
 }
 
 body{
+
     margin: 0px;
     background-color: blue;
+}
+
+.menu-bar{
+    width: 1024px;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f39e27;
+    display: block;
+    justify-content: center;
+}
+
+.menu-bar li{
+    float: left;
+}
+
+.menu-bar a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-bar a:hover{
+    background-color: #f2930f;
 }
 
 .container{
@@ -19,14 +47,17 @@ body{
 }
 
 a {
+
     color: black;
     text-align: center;
 }
 
 table {
+
     background-color: #f39e27;
 }
 
 button {
+
     background-color: #f39e27;
 }
