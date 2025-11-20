@@ -10,7 +10,7 @@ body{
     background-color: blue;
 }
 
-.menu-bar{
+.menu-bar ul{
     width: 1024px;
     list-style-type: none;
     margin: auto;
