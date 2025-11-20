@@ -6,11 +6,12 @@ html {
 
 body{
 
-    margin: 0px;
+    margin: 0;
     background-color: blue;
 }
 
-.menu-bar ul{
+/*DO NOT ADD ul ATTRIBUTE, BREAKS MENUBAR*/
+.menu-bar{
     width: 1024px;
     list-style-type: none;
     margin: auto;
